@@ -1,17 +1,20 @@
 
 body{
-    background-image: url(./img/dog2.jpg);   
-    
+    background-color: teal;
 }
-nav{
-    color: blanchedalmond;
+ul{
+    text-decoration: none;
+    display: inline-block;   
 }
-h1{
-    color: blueviolet;
+ol{
+    text-decoration: none; 
+    text-align: left; 
 }
-p{
-    color: chartreuse;
-}
-a{
-    color: cornflowerblue;
+ul li{
+    display: inline-block;
+    padding: 30px;
+    border-left: orange 2px solid;
+    border-bottom: orange 2px solid;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 24px;
 }
